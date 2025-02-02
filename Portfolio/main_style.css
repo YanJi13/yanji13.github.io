@@ -63,18 +63,18 @@
     background-repeat: no-repeat;
     font-family: 'Alagard';
 }
-#page-02 > h2 {
+#about-me {
+    padding-left: 65vw;
+    padding-right: 5vw;
+}
+#about-me > h2 {
     font-family: 'Alagard';
     font-size: 50px;
-    padding-left: 50vw;
-    padding-left: 50vw;
     color: #ffd678;
 }
-#page-02 > p {
+#about-me > p {
     font-family: 'Alagard';
     font-size: 1vw;
-    padding-left: 50vw;
-    padding-left: 50vw;
     letter-spacing: 1px;
     line-height: normal;
     color: #c6d5ff;
