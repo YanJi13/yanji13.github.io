@@ -57,6 +57,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: nowrap;
     width: 100vw;
     height: 100vh;
     background-image: url(Images/Page\ 02.jpeg);
@@ -77,6 +78,7 @@
 #about-me > p {
     font-family: 'Alagard';
     font-size: 1.2vw;
+    text-align: justify;
     letter-spacing: 1px;
     line-height: normal;
     color: #c6d5ff;
