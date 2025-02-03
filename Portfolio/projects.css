@@ -1,6 +1,5 @@
 #page-03 {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
@@ -8,12 +7,30 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#my-projects {
+    padding-left: 15vw;
+    padding-bottom: 70vh;
+    width: 30vw;
+}
+#my-projects > h2 {
+    font-family: 'Alagard';
+    font-size: 3vw;
+    color: #ffd678;
+}
+#my-projects > p {
+    font-family: 'Alagard';
+    font-size: 1.2vw;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: #c6d5ff;
+}
 #projects-scroll {
     width: 20vw;
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    padding-left: 60vh;
+    padding-left: 10vh;
     padding-right: 25vh;
 }
 #projects-scroll::-webkit-scrollbar {
@@ -31,13 +48,17 @@
     flex-direction: column;
     width: 17vw;
     height: 40vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     background-color: transparent;
     border-radius: 10px;
     font-family: 'Alagard';
     font-size: 23px;
     color: aqua;
     border: solid #ffcd5a;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.project:hover {
+    box-shadow: 0 0 15px #ffcd5a;
 }
 .project-img {
     width: 16vw;
@@ -78,4 +99,23 @@
 }
 #project-09-img {
     background-image: url(Images/WIP\ Logo.png);
+}
+#page-04 {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Final\ Page.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page-04 > h2 {
+    font-family: 'Alagard';
+    font-size: 5vw;
+    padding-left: 40vw;
+    padding-right: 30vw;
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+    color: #fff3f3;
+    text-align: center;
 }

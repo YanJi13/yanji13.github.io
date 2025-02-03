@@ -22,3 +22,6 @@ document.getElementById('project-07').addEventListener('click', function () {
 document.getElementById('project-08').addEventListener('click', function () {
     window.location.href = 'https://yanji13.github.io/BermudezCourseSchedule.html';
 });
+document.getElementById('project-09').addEventListener('click', function () {
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+});
