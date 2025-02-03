@@ -1,0 +1,45 @@
+#page-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Images/Projects\ Page.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#projects-scroll {
+    width: 20vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-left: 60vh;
+    padding-right: 25vh;
+}
+#projects-scroll::-webkit-scrollbar {
+    display: none;
+}
+#projects-scroll {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    height: 40vh;
+    margin-bottom: 5vh;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: 'Alagard';
+    font-size: 20px;
+    color: aqua;
+    border: solid aqua;
+}
+#project-01 {
+    margin-top: 30vh;
+}
+#project-09 {
+    margin-bottom: 30vh;
+}

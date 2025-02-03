@@ -50,6 +50,7 @@
     padding-top: 27vh;
     padding-bottom: 73vh;
     color: #ff4949;
+    text-align: center;
 }
 #page-02 {
     display: flex;
@@ -66,24 +67,18 @@
 #about-me {
     padding-left: 65vw;
     padding-right: 5vw;
+    width: 30vw;
 }
 #about-me > h2 {
     font-family: 'Alagard';
-    font-size: 50px;
+    font-size: 3vw;
     color: #ffd678;
 }
 #about-me > p {
     font-family: 'Alagard';
-    font-size: 1vw;
+    font-size: 1.2vw;
     letter-spacing: 1px;
     line-height: normal;
     color: #c6d5ff;
-}
-#page-03 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
 }
 
