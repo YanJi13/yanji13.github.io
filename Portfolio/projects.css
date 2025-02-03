@@ -24,22 +24,58 @@
     scrollbar-width: none; 
 }
 .project {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 16vw;
     height: 40vh;
     margin-bottom: 5vh;
     background-color: transparent;
     border-radius: 10px;
     font-family: 'Alagard';
-    font-size: 20px;
+    font-size: 23px;
     color: aqua;
-    border: solid aqua;
+    border: solid #ffcd5a;
 }
-#project-01 {
+.project-img {
+    width: 15vw;
+    height: 30vh;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project-topmost {
     margin-top: 30vh;
 }
-#project-09 {
+#project-botmost {
     margin-bottom: 30vh;
+}
+#project-01-img {
+    background-image: url(Images/Pythagorean\ Calc\ Logo.png);
+}
+#project-02-img {
+    background-image: url(Images/YanJi\'s\ Trial\ Logo.png);
+}
+#project-03-img {
+    background-image: url(Images/Just\ a\ Click\ Logo.png);
+}
+#project-04-img {
+    background-image: url(Images/String\ Tokenizer\ GTS\ Logo.png);
+}
+#project-05-img {
+    background-image: url(Images/ChronoLog\ Logo.png);
+}
+#project-06-img {
+    background-image: url(Images/TraceQuest\ Logo.png);
+}
+#project-07-img {
+    background-image: url(Images/EPHT\ Logo.png);
+}
+#project-08-img {
+    background-image: url(Images/2T\ Schedule\ Logo.png);
+}
+#project-09-img {
+    background-image: url(Images/WIP\ Logo.png);
 }
