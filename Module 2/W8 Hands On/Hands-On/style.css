@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "F1.8";
+    src: url(F1.8-Regular.otf);
+}
+body {
+    text-align: center;
+    font-family: 'F1.8';
+}
