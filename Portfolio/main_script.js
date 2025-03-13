@@ -25,3 +25,6 @@ document.getElementById('project-08').addEventListener('click', function () {
 document.getElementById('project-09').addEventListener('click', function () {
     window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 });
+document.getElementById('project-10').addEventListener('click', function () {
+    window.location.href = 'https://github.com/YanJi13/Against-All-Snippets';
+});
